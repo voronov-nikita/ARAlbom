@@ -1,4 +1,28 @@
 {
+  "trailingComma": "all",
   "tabWidth": 4,
-  "useTabs": false
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 120,
+  "htmlWhitespaceSensitivity": "css",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "babel"
+      }
+    }
+  ]
 }
